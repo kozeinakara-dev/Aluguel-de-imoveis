@@ -1,0 +1,106 @@
+*{
+    margin: 0px 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-size: contain;       /* ou 'cover' */
+    background-repeat: no-repeat;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hero{
+    display: flex;
+    background: url(imagens/Aluguel\ de\ imoveis\ \(2\).png);
+    color: rgb(76, 151, 135);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#hero img{
+    max-height: 300px;
+    width: auto;
+}
+header{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+#grid{
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    width: 35%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px black;
+}
+.botao{
+    height: 40px;
+    border: none;
+    color: blue;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.exemplo{
+    display: flex;
+    height: 600px;
+}
+.minis{
+    display: flex;
+    flex-direction: column;
+    height: 295px;
+    display: flex;
+}
+.contato{
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    height: 150px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 250px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    justify-content: end;
+    padding-bottom: 5px;
+    color: white;
+}
+main{
+    flex: 1;
+}
+.local{
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    margin-top: 10px;
+    text-align: center;
+}
